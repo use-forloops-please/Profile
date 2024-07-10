@@ -1,0 +1,33 @@
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .background-image {
+    background: url('/src/assets/roonz-nl-2xEQDxB0ss4-unsplash.jpg') no-repeat center center;
+    background-size: cover;
+    height: 300px; 
+    width: 100%;
+  }
+  
+  .profile-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%; 
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    background-image: url('/src/assets/592c34f7-08b5-4bbd-bc2b-23aa462dc27e 2.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 0 auto 20px;
+  }
